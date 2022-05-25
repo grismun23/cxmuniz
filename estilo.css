@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+background-color: #F9D9C0;
+}
+.encabezado--color1{
+    color: #F9D9C0;
+    background-color: #F28775;
+    text-align: center;
+    height: 50%;
+    width: 10%;
+    border: 10px;
+}
+li{
+   display: inline-block;
+   width: 15%;
+   position:relative;
+   font-size: 1.5rem;
+   text-align: center;
+   padding-top: 0px;
+   font-family: 'Raleway', sans-serif;
+   color: ffffff;
+   height: 0%;
+}
+.Pic1{
+    margin-left: 10%;
+    margin-top: -20%;
+    width: 100%;
+    height: 50%;
+}
+.presentacion{
+    width: 800%;
+    height: 20%;
+    margin-left:10% ;
+    margin-right: 10%;
+    margin-top: -30%; 
+    font-style: bold;
+    color: #F28775;
+    font-size: 130%;
+}
+. @media :horizontal and (grid) and (max-width: 15em)
+@media screen and (min-width: 500px) and (max-width: 800px)
+.presentacion2{
+    width: 800%;
+    height: 20%;
+    margin-left:-55% ;
+    margin-top: -5%;
+    margin-right: 8%;
+    font-family: 'Raleway', sans-serif;
+    font-style: bold;
+    color: #F28775;
+    font-size: 130%;
+}
+.introil{
+    height: 130vh;
+    width: 100%;
+    margin-bottom: 0%;
+    background-color: #F9D9C0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.imagen1{
+    height: 110px;
+    width: 80px;
+}
+.encabezado{
+    height: 140%;
+    width: 100%;
+}
+.logo1{
+    height: 120px;
+    border: 10%;
+    padding-inline-end: 0%;
+}
+.picilse{
+    padding: 0px;
+    border: 0;
+    vertical-align: middle;
+}
+.formacion{
+    width: 100%;
+    height: 180px;
+    padding: 0px;
+    background-color: #F9F6E4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 80px 80px 100px;
+    grid-gap: 20px;
+    margin-top: -100px;
+    grid-template-areas: "img1 img2 img3 img4";
+}
+.lugaresdef{
+    height: 130px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #EAE48F;
+}
+.introlugares{
+    text-align: center;
+    height: 150px;
+    font-family: 'Raleway', sans-serif;
+    color:#ffffff
+}
+.item{
+    margin-top: 10px;
+    border: 0px solid #F28775;
+    border-radius: 0px;
+}
+.item1{
+grid-area: img1;
+background-image: url(./images/Future\ Is.png);
+background-position: center;
+background-size: cover;
+}
+.item2{
+    grid-area: img2;
+    background-image: url(./images/logo\ tec.png);
+    background-size: cover;
+}
+.item3{
+    grid-area: img3;
+    background-image: url(./images/playground.png);
+    background-size: cover;
+}
+.item4{
+    grid-area: img4;
+    background-image: url(./images/IESE.png);
+    background-size: cover;
+}
+
+.footerhome{
+    background-color: #F28775;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+
+}
+.logofooter{
+    justify-content: left;
+    display: flex;
+    padding-left: 40px;
+    height: 110px;
+    width: 120px;
+}
+.podcast{
+    background-color: #F9D9C0;
+}
+.header2{
+    background-color: #F28775;
+    height: 215px;
+    margin: 0px;
+    text-align: center;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bannerpodcast{
+    margin-top: 20px;
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    text-align: justify;
+    text-align: left;
+     margin-bottom: -30px;
+
+}
+.h4pod{
+    height: 20px;
+    color: #F28775;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -20px;
+    background-color: #EAE48F;
+    text-align: center;
+
+}
+@keyframes moverElemento {
+	0%{width: 100px;transform: translate(30px,60px);}
+	50%{width: 100px;transform: rotate(80deg);background: linear-gradient(#EAE48F, #F28775);}
+	100%{width: 50px;transform: translateY(20px);background-color: #F9D9C0;}
+}
+.bodypod{
+    width: 100px;
+    height: 100px;
+    color: ffffff;
+    background-color: #F28775;
+    animation-name: moverElemento;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.descripcionpod{
+    text-align: center;
+
+}
+.recgratis{
+    background-color: #F9D9C0;
+}
+.contacto{
+    background-color: #F9D9C0;
+}
+.misfav{
+    background-color: #F9D9C0;
+}
+.header3{
+    background-color: #F28775;
+    height: 215px;
+    margin: 0px;
+    text-align: center;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body3{
+    text-align: center;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.header4{
+    background-color: #F28775;
+    height: 215px;
+    margin: 0px;
+    text-align: center;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer4{
+    background:linear-gradient(#F28775,#F28775,#ffffff);
+    text-align: center;
+    color: white;
+}
+.body4{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bodyrecgratis{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.parraforecgratis{
+    height: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header5{
+    background-color: #F28775;
+    height: 215px;
+    margin: 0px;
+    text-align: center;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.form{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+.picilse{
+    grid-row: auto;
+}
